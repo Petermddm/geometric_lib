@@ -7,6 +7,7 @@ def area(a):
         Возвращаемое значение:
             area (int): площадь квадрата
     ''' 
+    if(a<0): return 0
     return a * a
 
 
@@ -18,4 +19,5 @@ def perimeter(a):
         Возвращаемое значение:
             area (int): периметр квадрата
     ''' 
+    if(a<0): return 0
     return 4 * a

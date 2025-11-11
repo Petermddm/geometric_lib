@@ -7,6 +7,7 @@ def area(a, b):
         Возвращаемое значение:
             area (int): площадь прямоугольника
     '''  
+    if(a<0 or b<0): return 0
     return a * b 
 
 def perimeter(a, b): 
@@ -18,4 +19,5 @@ def perimeter(a, b):
         Возвращаемое значение:
             area (int): периметр прямоугольника
     ''' 
+    if(a<0 or b<0): return 0
     return 2 * (a + b) 

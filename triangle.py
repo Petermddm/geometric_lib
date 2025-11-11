@@ -7,6 +7,7 @@ def area(a, h):
         Возвращаемое значение:
             area (int): площадь треугольника
     ''' 
+    if(a<0 or h<0): return 0
     return a * h / 2 
 
 def perimeter(a, b, c): 
@@ -19,4 +20,5 @@ def perimeter(a, b, c):
         Возвращаемое значение:
             area (int): периметр треугольника
     ''' 
+    if(a<0 or b<0 or c<0 or a+b<c or a+c<b or b+c<a): return 0
     return a + b + c
