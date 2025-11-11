@@ -144,6 +144,10 @@ print(res)  #12
     Author: Petr Miliukov <allo.pitt@gmail.com>
     Date:   Tue Oct 14 00:12:58 2025 +0300
     Fix rectangle.py perimetr calculation
+### ommit 88b9e40fea6c21e0212d2a767bcb1b73df2ffca0
+    Author: Petr Miliukov <allo.pitt@gmail.com>
+    Date:   Tue Nov 11 14:47:41 2025 +0300
+    some changes and added tests  
 # Math formulas
 ## Area
 - Circle: S = πR²
