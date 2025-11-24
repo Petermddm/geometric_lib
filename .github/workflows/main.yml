@@ -26,9 +26,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Install coverage
-        run: |
-          python -m pip install
-          pip install coverage
+        run: python -m pip install --upgrade pip coverage
         
       # Runs a single command using the runners shell
       - name: Run tests
